@@ -39,7 +39,7 @@ import (
 	"github.com/artheus/pgon"
 )
 
-// This will simply read and parse a pgn file, then print the result
+// This will simply read and parse a pgn string, then print the result
 // to stdout.
 func main() {
 	const pgnData = `[Event "F/S Return Match"] 
